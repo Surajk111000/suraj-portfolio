@@ -1,6 +1,28 @@
 # Suraj Kumar Portfolio Website
 
+> 🌐 **[Live Portfolio](https://stately-kulfi-e34491.netlify.app/profile)** - Visit the deployed portfolio online!
+
 A modern, interactive, and fully responsive portfolio website built with **React**, **Vite**, and **Tailwind CSS**. Features smooth navigation, dark mode support, professional card-based UI, and multiple portfolio sections showcasing experience, education, skills, projects, and achievements.
+
+---
+
+## 🚀 Quick Links
+
+| 🌐 Live Portfolio | 📦 GitHub Repo | 📖 Documentation | 🔧 Deployment |
+|---|---|---|---|
+| [**View Live**](https://stately-kulfi-e34491.netlify.app/profile) | [**Repo**](https://github.com/Surajk111000/suraj-portfolio) | [**README**](https://github.com/Surajk111000/suraj-portfolio#readme) | [**Netlify**](https://netlify.com) |
+
+---
+
+## 🎯 Live Portfolio Stats
+
+- 🌍 **Hosted on:** Netlify (Free)
+- 🔝 **Performance:** Lightning fast with Vite
+- 📱 **Responsive:** Mobile, Tablet, Desktop optimized
+- 🌙 **Dark Mode:** Fully supported
+- 🔄 **Auto-Deploy:** Updates on every GitHub push
+
+---
 
 ## 🌟 Features
 
