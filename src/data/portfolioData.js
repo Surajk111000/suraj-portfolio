@@ -2,12 +2,12 @@ import profileImage from '../image/pic_profile-.png'
 
 export const profile = {
   name: 'Suraj Kumar',
-  title: 'Data Analyst & Software Engineer',
-  location: 'Hyderabad, Telangana, India',
+  title: 'Data Scientist | AI & ML Engineer | Software Engineer',
+  location: 'Gurugram, Haryana, India',
   email: 'surajk201611@gmail.com',
   profileImage,
   summary:
-    'Associate Software Engineer with a strong foundation in data analytics and software development. I build reliable, scalable, and data-driven solutions using Python, SQL, React, and FastAPI, and I actively work on Machine Learning, Deep Learning, and LLM-based applications with a focus on clean engineering and practical business impact.'
+    'Data Scientist at MathLogic, combining data science with strong software engineering foundations. I build production-grade AI and data solutions using Python, SQL, PySpark, and FastAPI, spanning GenAI and Agentic AI systems with LLMs, RAG, LangChain, and LangGraph, along with Machine Learning, Deep Learning, and model fine-tuning. I also design scalable web applications with React and Next.js, focused on clean engineering, measurable business impact, and reliable delivery at scale.'
 }
 
 export const socialMedia = [
@@ -82,13 +82,24 @@ export const projectProfiles = [
 
 export const experience = [
   {
+    role: 'Data Scientist',
+    org: 'MathLogic',
+    duration: 'Mar 2026 - Present',
+    type: 'Full-time',
+    location: 'Gurugram, Haryana, India',
+    url: 'https://fnmathlogic.com/',
+    logoKey: 'mathlogic',
+    description:
+      'Working as a Data Scientist at MathLogic, applying data analysis, Python, SQL, machine learning, Agentic AI, LLMs, fine-tuning, LangChain, and LangGraph to deliver data-driven insights and solutions.'
+  },
+  {
     role: 'Associate Software Engineer',
     org: 'ITS Planners and Engineers',
-    duration: 'Jul 2024 - Present',
+    duration: 'Jul 2024 - Mar 2026',
     type: 'Full-time',
     logoKey: 'itspe',
     description:
-      'Working on software development and problem-solving with Python, SQL, JavaScript, FastAPI, React.js, Git, and GitHub.'
+      'Worked on software development and problem-solving with Python, SQL, JavaScript, FastAPI, React.js, Git, and GitHub.'
   },
   {
     role: 'Teaching Assistant',

@@ -6,16 +6,29 @@ import awadhLogo from '../image/awadh_iitropar_logo.png'
 import iiestLogo from '../image/iiest_logo.png'
 import iitbLogo from '../image/iitb_logo.jfif'
 import itspeLogo from '../image/itspe_logo.jfif'
-import resumePdf from '../image/Suraj_Kumar_Software_Engineer.pdf'
+import mathlogicLogo from '../image/mathlogic_logo.jfif'
+import resumePdf from '../image/Suraj_Kumar_Resume.pdf'
 
 const experienceLogos = {
   awadh: awadhLogo,
   iiest: iiestLogo,
   iitb: iitbLogo,
-  itspe: itspeLogo
+  itspe: itspeLogo,
+  mathlogic: mathlogicLogo
 }
 
 const roleHighlights = {
+  'Data Scientist': [
+    'Python',
+    'SQL',
+    'Data Analysis',
+    'Machine Learning',
+    'Agentic AI',
+    'LLM',
+    'Fine-tuning',
+    'LangChain',
+    'LangGraph'
+  ],
   'Associate Software Engineer': ['Python', 'SQL', 'React', 'FastAPI'],
   'Summer Intern': ['AI & CPS', 'Flutter', 'IoT', 'Android'],
   'Teaching Assistant': ['Lab Sessions', 'Evaluation', 'Mentoring'],
@@ -62,7 +75,7 @@ function ProfilePage() {
             </a>
             <a
               href={resumePdf}
-              download="Suraj_Kumar_Software_Engineer.pdf"
+              download="Suraj_Kumar_Resume.pdf"
               className="rounded-lg border border-brand-primary px-4 py-2 text-sm font-semibold text-brand-primary transition hover:bg-indigo-50 dark:border-brand-dark-accent dark:text-brand-dark-accent dark:hover:bg-slate-700"
             >
               Download Resume
@@ -107,7 +120,20 @@ function ProfilePage() {
                   <div className="min-w-0">
                     <h4 className="text-lg font-semibold text-brand-primary dark:text-brand-dark-accent">{item.role}</h4>
                     <p className="text-sm text-slate-500 dark:text-slate-300">
-                      {item.org} • {item.type} • {item.duration}
+                      {item.url ? (
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-brand-primary underline-offset-2 hover:underline dark:text-brand-dark-accent"
+                        >
+                          {item.org}
+                        </a>
+                      ) : (
+                        item.org
+                      )}{' '}
+                      • {item.type} • {item.duration}
+                      {item.location ? ` • ${item.location}` : ''}
                     </p>
                   </div>
                 </div>
